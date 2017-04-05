@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingBottom="0dp"
+    android:id="@+id/my_home"
+    android:orientation="vertical"
+    tools:context="com.webbrowser.devashish.webbrowser.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:text="GOOGLE"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:text="AMAZON"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="YAHOO"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:background="#fff"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:text="flipkart"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Type URL"
+            android:onClick="advanceToquestiontwo"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="Facebook"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="5sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="5sp"
+            android:background="#ff0000"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="outlook"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="snapdeal"
+            android:padding="5sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="5sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="5sp"
+            android:background="#ff0000"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="rediff"
+            android:gravity="bottom"
+            android:padding="5sp"
+            android:background="#fff"
+            android:paddingBottom="5sp"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:paddingTop="5sp"
+            android:textColor="#ff0000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
